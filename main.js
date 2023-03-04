@@ -23,7 +23,7 @@ else if (prenda === 3){
 alert(`Gracias por su compra, el total seria de $${PrecioFinal} `);
 }
 else if (prenda === 4){
-    totalDePrendas = parseInt(prompt("El precio de los accesorios es del $2000      ¿cuantos accesorios deseas comprar?"));
+    totalDePrendas = parseInt(prompt("El precio de los accesorios es del $2000     ¿cuantos accesorios deseas comprar?"));
     PrecioFinal = resultado(totalDePrendas,2000);
 alert(`Gracias por su compra, el total seria de $${PrecioFinal} `);
 }
